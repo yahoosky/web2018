@@ -6,8 +6,7 @@
         </el-header>
       <el-container class="container2">
         <el-aside class="asider">
-          
-
+          <leftNav></leftNav>
         </el-aside>
         <el-main class="main">
           
@@ -20,9 +19,13 @@
   </div>
 </template>
 <script>
+import leftNav from '@/components/leftList.vue'
 export default {
   data () {
     return {}
+  },
+  components: {
+    leftNav
   }
 }
 </script>
